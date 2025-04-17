@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Gallery</title>
+<style>
+body {
+  font-family: sans-serif;
+  background-color: black;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.gallery-item {
+  width: 350px;
+  margin-bottom: 20px;
+}
+
+img, video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+h1{
+    text-align: center;
+    color: white;
+}
+</style>
+</head>
+<body>
+<h1><strong>MY GALLERY</strong></h1>
+<div class="gallery">
+  <div class="gallery-item">
+    <img src="Screenshot_20250417-100220.jpg" alt="Image 1">
+  </div>
+  <div class="gallery-item">
+    <img src="Screenshot_20250417-100233.jpg" alt="Image 2">
+  </div>
+  <div class="gallery-item">
+    <video controls>
+      <source src="lv_7490455882514402621_20250417095718.mp4" type="video/mp4">
+      <source src="videos/myvideo.webm" type="video/webm">  </video>
+  </div>
+  <div class="gallery-item">
+    <img src="Screenshot_20250417-100259.jpg" alt="Image 3">
+  </div>
+  <div class="gallery-item">
+    <img src="Screenshot_20250321-114124_1.png" alt="Image 4">
+  </div>
+  <div class="gallery-item">
+    <video controls>
+      <source src="lv_7351941714661100807_20250416152235.mp4" type="video/mp4">
+      <source src="videos/myvideo.webm" type="video/webm">
+    </video>
+  </div>
+</div>
+</body>
+    </html>
+    
